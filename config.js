@@ -70,16 +70,19 @@ exports.paths = [
     index : "firebase",
     type  : "thietbi",
     fields: [
-      'nhom', 'chungLoai', 'loai',
-      'maThietBi', 'maMaximo', 'maTopX',
-      'hangSanXuat', 'modelThietBi', 'namSanXuat', 'namSuDung',
-      'bienSo', 'soDangKy', 'soDangKiem', 'soKhung', 'soMay',
-      'dvQuanLy', 'dvQuanLyId', 'dvSoHuu', 'dvSoHuuId',
-      'khuVuc', 'khuVucId',
-      'ghiChu', 'moTa',
-      'trangThai',
-      'tags'
+      'maThietBi'
     ],
+    // fields: [
+    //   'nhom', 'chungLoai', 'loai',
+    //   'maThietBi', 'maMaximo', 'maTopX',
+    //   'hangSanXuat', 'modelThietBi', 'namSanXuat', 'namSuDung',
+    //   'bienSo', 'soDangKy', 'soDangKiem', 'soKhung', 'soMay',
+    //   'dvQuanLy', 'dvQuanLyId', 'dvSoHuu', 'dvSoHuuId',
+    //   'khuVuc', 'khuVucId',
+    //   'ghiChu', 'moTa',
+    //   'trangThai',
+    //   'tags'
+    // ],
     filter: function(data) { return data.name !== 'system'; }
     // see readme
     //, parser: function(data) { data.msg = data.msg.toLowerCase(); return data; }

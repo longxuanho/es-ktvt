@@ -69,9 +69,6 @@ exports.paths = [
     path  : "thietbis/list",
     index : "firebase",
     type  : "thietbi",
-    fields: [
-      'maThietBi'
-    ],
     // fields: [
     //   'nhom', 'chungLoai', 'loai',
     //   'maThietBi', 'maMaximo', 'maTopX',
